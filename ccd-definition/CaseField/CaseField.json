@@ -981,5 +981,26 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "_Comments": "This field type should change to 'DynamicRadioList when EUI supports this"
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "ID": "SelectDefendantForDefault",
+    "Label": "Select Defendant",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "ID": "cpr",
+    "Label": "## Do all of these statements apply to the Defendant? \n\n* line 1 \n\n * line 2 \n\n * line 3 \n\n * line 4 \n\n * line 5",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "ID": "cprbox",
+    "Label": "put check box here",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

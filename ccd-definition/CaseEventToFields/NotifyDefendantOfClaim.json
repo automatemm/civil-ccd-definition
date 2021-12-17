@@ -14,13 +14,24 @@
   {
     "CaseTypeID": "CIVIL",
     "CaseEventID": "NOTIFY_DEFENDANT_OF_CLAIM",
+    "CaseFieldID": "SelectDefendantForDefault",
+    "CaseEventFieldLabel": "Defendant",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SelectDefendantSolicitorToNotify",
+    "PageDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "CaseEventID": "NOTIFY_DEFENDANT_OF_CLAIM",
     "CaseFieldID": "defendantSolicitorNotifyClaimOptions",
     "PageFieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",
     "PageID": "SelectDefendantSolicitorToNotify",
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder":1,
     "ShowSummaryChangeOption": "Y",
-    "PageShowCondition": "respondent2SameLegalRepresentative=\"No\""
+    "_PageShowCondition": "respondent2SameLegalRepresentative=\"No\""
   },
   {
     "CaseTypeID": "CIVIL",

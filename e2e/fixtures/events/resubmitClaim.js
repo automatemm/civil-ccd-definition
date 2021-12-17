@@ -3,7 +3,7 @@ const { listElement } = require('../../api/dataHelper');
 const selectedPBA = listElement('PBA0088192');
 module.exports = {
   valid: {
-    ResubmitClaim: {
+    RequestDefaultJudgment: {
       applicantSolicitor1PbaAccounts: {
         list_items: [
           selectedPBA,

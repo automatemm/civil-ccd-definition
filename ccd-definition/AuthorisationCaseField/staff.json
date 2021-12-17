@@ -109,6 +109,12 @@
   },
   {
     "CaseTypeID": "CIVIL",
+    "CaseFieldID": "SelectDefendantForDefault",
+    "UserRole": "caseworker-civil-staff",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "CIVIL",
     "CaseFieldID": "noPbaAccountsLabel",
     "UserRole": "caseworker-civil-staff",
     "CRUD": "R"

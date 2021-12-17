@@ -329,10 +329,11 @@
     "UserRole": "caseworker-civil-systemupdate",
     "CRUD": "CRUD"
   },
-    {
+  {
     "CaseTypeID": "CIVIL",
     "CaseFieldID": "claimProceedsInCaseman",
     "UserRole": "caseworker-civil-systemupdate",
     "CRUD": "CRUD"
   }
+
 ]

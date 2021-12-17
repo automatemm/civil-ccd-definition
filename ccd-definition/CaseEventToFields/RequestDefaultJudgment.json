@@ -1,0 +1,42 @@
+[
+  {
+    "CaseTypeID": "CIVIL",
+    "CaseEventID": "DEFAULT_JUDGEMENT",
+    "CaseFieldID": "SelectDefendantForDefault",
+    "CaseEventFieldLabel": "Defendant",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "PageID": "SelectDefendant",
+    "PageDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "CaseEventID": "DEFAULT_JUDGEMENT",
+    "CaseFieldID": "cpr",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "READONLY",
+    "PageLabel": "",
+    "PageID": "cprconfirm",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "N"
+
+  },
+  {
+    "CaseTypeID": "CIVIL",
+    "CaseEventID": "DEFAULT_JUDGEMENT",
+    "CaseFieldID": "cprbox",
+    "PageFieldDisplayOrder": 2,
+    "DisplayContext": "READONLY",
+    "PageLabel": "",
+    "PageID": "cprconfirm",
+    "PageDisplayOrder": 2,
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "N",
+    "_Comment": "use string, attach each string to radio button?"
+  }
+
+]
+
