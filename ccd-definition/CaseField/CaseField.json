@@ -136,7 +136,7 @@
   {
     "CaseTypeID": "CIVIL",
     "ID": "defendantDetails",
-    "Label": "PBA Number",
+    "Label": "Defendant Details",
     "FieldType": "DynamicRadioList",
     "SecurityClassification": "Public"
   },
