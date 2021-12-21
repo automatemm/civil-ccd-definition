@@ -144,7 +144,7 @@
     "CaseTypeID": "CIVIL",
     "ID": "defendantDetailsIsEmpty",
     "Label": "Show Defendant Details",
-    "FieldType": "YesOrNot",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public",
     "Comments": "details"
   },
